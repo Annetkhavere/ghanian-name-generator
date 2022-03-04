@@ -21,3 +21,6 @@ video {
   font-size: 20px;
   font-family: sans-serif;
 }
+button {
+  border-radius: 12px;
+}
