@@ -1,5 +1,7 @@
 video {
   object-fit: cover;
+  position: absolute;
+  
  
 }
 .col-md-12 {
