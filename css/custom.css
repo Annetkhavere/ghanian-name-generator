@@ -1,4 +1,12 @@
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 .col-md-12 {
   text-align: center;
-  margin-top: 250px;
+  margin-top: 250px; 
 }
