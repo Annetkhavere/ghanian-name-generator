@@ -23,4 +23,5 @@ video {
 }
 button {
   border-radius: 12px;
+  width: 150px;
 }
