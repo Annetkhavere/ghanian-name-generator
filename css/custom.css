@@ -16,3 +16,8 @@ video {
   font-size: 44px;
   font-family: sans-serif;
 }
+.col-md-12 p {
+  color: azure;
+  font-size: 20px;
+  font-family: sans-serif;
+}
