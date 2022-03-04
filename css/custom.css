@@ -5,11 +5,14 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  
-  
 }
 .col-md-12 {
   position: relative;
   text-align: center;
   margin-top: 250px; 
+}
+.col-md-12 h1 {
+  color: aliceblue;
+  font-size: 44px;
+  font-family: sans-serif;
 }
