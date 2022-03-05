@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">  
+    <link rel="stylesheet" href="css/generator.css" type="text/css">
     <title>Generator</title>
   </head>
   <body>
     <div class="container">
       <h1>FORM</h1>
-      <p>Please fill this form below as required</p>
-      <div class="container d-flex justify-content-center align-items-center">
-      <form class="row g-3">
-        <div class="col-md-12 mx-auto">
+      <p>Please fill this form below as required</p> 
+      <form class="form row g-3">
+        <div class="col-md-12">
           <label for="date" class="form-label">Date</label>
           <input type="date" class="form-control" id="date" required>
         </div>
-        <div class="row g-3">
-          <div class="col-md-12">
-            <select class="form-select" aria-label="select" required>
-              <option value="female">Female</option>
-              <option value="male">Male</option>
-            </select>
-          </div>
+        <div class="col-md-12">
+          <select class="form-select" aria-label="select" required>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select>
         </div>
-        <div class="row g-3">
-          <div class="col-md-12">
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
-      </div>
       </form>
     </div>
   </body>
