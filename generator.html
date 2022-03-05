@@ -9,8 +9,17 @@
       <h1>FORM</h1>
       <p>Please fill this form below as required</p>
       <form class="row g-3">
-        <div class="col-md-4">
-          <label for="day" class="form-label">Day</label>
+        <div class="col-md-12">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date" required>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-12">
+            <select class="form-select" aria-label="select">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+          </div>
         </div>
       </form>
     </div>
