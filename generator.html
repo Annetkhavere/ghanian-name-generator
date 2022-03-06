@@ -7,42 +7,46 @@
   </head>
   <body>
     <div class="container"> 
-      <form>
+      <form id="form">
          <div class="form row g-3">
-          <h1>FORM</h1>
-          <div class="col-md-4">
-            <label for="day" class="form-label">Day</label>
-            <input class="form-control" id="day" required>
-          </div>
-          <div class="col-md-4">
-            <label for="month" class="form-label">Month</label>
-            <input class="form-control" id="month" required>
-          </div>
-          <div class="col-md-4">
-            <label for="year" class="form-label">Year</label>
-            <input class="form-control" id="year" required>
-          </div>
-
-        <div class="col-md-12">
-          <p>Do you know the day of week you were born?</p>
-          <select class="form-select" aria-label="select" id="dayofweek">
-            <option value="select">select</option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-        </div>
-        <div class="col-md-12">
-          <p>Gender</p>
-          <select class="form-select" aria-label="select" id="gender" required>
-            <option value="select">select</option>
-            <option value="female">Female</option>
-            <option value="male">Male</option>
-          </select>
-        </div>
-        <div class="col-md-12">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
+           <h1>FORM</h1>
+           <div class="col-md-4">
+             <label for="day" class="form-label">Day</label>
+             <input class="form-control" id="day" type="number" min="1" max="31" required>
+             <p id="demo3"></p>
+            </div>
+           <div class="col-md-4">
+             <label for="month" class="form-label">Month</label>
+             <input class="form-control" id="month" type="number" min="1" max="12"   required>
+           </div>
+           <div class="col-md-4">
+             <label for="year" class="form-label">Year</label>
+             <input class="form-control" id="year" type="number" max="2021" required>
+           </div>
+        
+           <div class="col-md-12">
+             <p>Do you know the day of week you were born?</p>
+             <select class="form-select" aria-label="select" id="dayofweek" required>
+               <option value="select">select</option>
+               <option value="yes">Yes</option>
+               <option value="no">No</option>
+             </select>
+           </div>
+           <div class="col-md-12">
+             <p>Gender</p>
+             <select class="form-select" aria-label="select" id="gender" required>
+               <option value="select">select</option>
+               <option value="female">Female</option>
+               <option value="male">Male</option>
+             </select>
+           </div>
+           <div class="col-md-12">
+             <button onclick="myFunction()" class="btn btn-primary" type="submit" >Submit</button>
+           </div>
       </form>
     </div>
+          <script src="/js/script.js">
+            
+          </script>
   </body>
 </html>
