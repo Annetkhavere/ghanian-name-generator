@@ -19,7 +19,7 @@ Javascript
 Bootstrap
 CSS
 ## Link to the website
-
+https://annetkhavere.github.io/ghanian-name-generator/
 ## LICENSE
 MIT (c) 2022 Annetkhavere
 
